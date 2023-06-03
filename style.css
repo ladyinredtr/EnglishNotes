@@ -93,7 +93,7 @@
     color: #27374D
 }
 
-@media (max-width:400px) {
+@media (max-width:720px) {
 
 .navigation{
     grid-column: 2/3;
