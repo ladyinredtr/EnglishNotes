@@ -43,33 +43,23 @@
 }
 
 .parts>div{
-    background-color: black;
+    display: flex; 
 }
 
-.part-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.plus{
+    width: 25%;
+    text-align: right;
+    color: yellowgreen;
+    padding-right: 10px;
+
 }
 
-.part-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-    
-}
-
-.part-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
+.minus{
+    width: 25%;
+    text-align: left;
+    color: yellowgreen;
+    font-weight: 900;
+    padding-left: 10px;
 }
 
 .part-bg{
