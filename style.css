@@ -101,7 +101,7 @@
     color: #27374D
 }
 
-.part1-content{
+.part-1-content{
     display: grid;
     grid-row: auto;
     grid-column: 1;
@@ -111,7 +111,7 @@
 
 }
 
-.part2-content{
+.part-2-content{
     display: grid;
     grid-row: auto;
     grid-column: 1;
@@ -120,7 +120,7 @@
     background-color: #27374D;
 }
 
-.part3-content{
+.part-3-content{
     display: grid;
     grid-row: auto;
     grid-column: 1;
