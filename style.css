@@ -67,8 +67,16 @@
     row-gap: 10px;
 }
 
-.parts>div{
+.part-1{
     display: flex; 
+}
+
+.part-2{
+    display: flex;
+}
+
+.part-3{
+    display: flex;
 }
 
 .plus{
@@ -92,6 +100,36 @@
     width: 50%;    
     color: #27374D
 }
+
+.part1-content{
+    display: grid;
+    grid-row: auto;
+    grid-column: 1;
+    height: 25%vh;
+    color: #DDE6ED;
+    background-color: #27374D;
+
+}
+
+.part2-content{
+    display: grid;
+    grid-row: auto;
+    grid-column: 1;
+    height: 25%vh;
+    color: #DDE6ED;
+    background-color: #27374D;
+}
+
+.part3-content{
+    display: grid;
+    grid-row: auto;
+    grid-column: 1;
+    height: 25%vh;
+    color: #DDE6ED;
+    background-color: #27374D;
+}
+
+
 
 @media (max-width:720px) {
 
