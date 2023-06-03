@@ -18,11 +18,20 @@
     grid-row: 1;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    
+    background-color: #27374D;
+    color: #DDE6ED;
+}
+
+.brand{
+    background-color: #526D82;
+    color:#DDE6ED;
+    text-align: center;
 }
 
 .search{
-    text-align: right;
+    text-align: center;
+    background-color: #526D82;
+    color:#DDE6ED;
 }
 
 .content{
@@ -63,8 +72,9 @@
 }
 
 .part-bg{
-    background-color: burlywood;
+    background-color: #DDE6ED;
     width: 50%;    
+    color: #27374D
 }
 
 @media (max-width:400px) {
